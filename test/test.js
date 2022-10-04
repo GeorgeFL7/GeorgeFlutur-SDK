@@ -1,4 +1,10 @@
-import LotRLibrary from "../index.js";
+import assert from "assert";
+import { LotRLibrary, BASE_URL } from "../lib/LotRLibrary.js"
 
-const lotrlib = new LotRLibrary()
-console.log(await lotrlib.getBooks());
+
+describe('The LotR SDK shold ', function () {
+    it('have a defined URL', function () {
+        assert.notEqual('undefined', BASE_URL);
+    })
+
+})

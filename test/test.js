@@ -2,6 +2,7 @@ import assert from "assert";
 import { LotRLibrary, BASE_URL } from "../lib/LotRLibrary.js"
 import dotenv from "dotenv"
 dotenv.config()
+
 describe('The LotR SDK should ', function () {
     const lotrlib = new LotRLibrary(process.env.LOTR_API_KEY)
     it('have a defined URL', function () {

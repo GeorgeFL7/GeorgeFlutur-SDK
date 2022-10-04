@@ -1,0 +1,27 @@
+{
+  "name": "georgeflutur-sdk",
+  "version": "1.0.0",
+  "description": "JS SDK for the LotR API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeorgeFL7/GeorgeFlutur-SDK.git"
+  },
+  "keywords": [
+    "SDK",
+    "JS",
+    "API",
+    "Client",
+    "Library",
+    "Liblab"
+  ],
+  "author": "George Flutur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeorgeFL7/GeorgeFlutur-SDK/issues"
+  },
+  "homepage": "https://github.com/GeorgeFL7/GeorgeFlutur-SDK#readme"
+}

@@ -4,7 +4,7 @@
   "description": "JS SDK for the LotR API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter list"
+    "test": "NODE_ENV=test mocha --reporter list"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   "dependencies": {
     "assert": "^2.0.0",
     "axios": "^0.27.2",
+    "dotenv": "^16.0.3",
     "mocha": "^10.0.0"
   },
   "type": "module"

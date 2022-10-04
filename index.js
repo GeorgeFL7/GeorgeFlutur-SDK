@@ -1,4 +1,5 @@
 import axios from "axios";
+import LotRLibraryError from "./lib/LotRLibraryError";
 
 const BASE_URL = 'https://the-one-api.dev/v2';
 
@@ -20,7 +21,7 @@ export default class LotRLibrary {
 
         let response = await axios.get(BASE_URL + endpoint)
             .catch(function (error) {
-                console.log(error)
+                throw new LotRLibraryError(error.response.status, error.response.data)
             });
         return response?.data;
     }

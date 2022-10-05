@@ -54,6 +54,16 @@ In order to avoid unhandled errors at all costs, a the ```LotRLibraryError``` cl
 1. The request didn't make it to the server(e.g. No internet connection) -----> In this case the SDK throws an error with an unknown status
 2. The request did make it to the server(e.g. Unauthorized call) -----> In this case the SDK throws an error with a status and a message from the server
 
+## Testing
+
+As it was mentioned above, for the testing of the SDK, the mocha module was used. The performed tests include the following:
+- URL is not null
+- The /book endpoint gets called and the returned value is as expected
+- 401 gets propperly handled
+- The /movie endpoint gets called and the returned value is as expected
+- The /character endpoint gets called and the returned value is as expected
+- The /chapter endpoint gets called and the returned value is as expected
+- The /quote endpoint gets called and the returned value is as expected
 
 ## File Structure
 

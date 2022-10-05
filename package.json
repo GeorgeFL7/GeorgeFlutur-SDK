@@ -1,6 +1,6 @@
 {
   "name": "georgeflutur-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS SDK for the LotR API",
   "main": "index.js",
   "scripts": {

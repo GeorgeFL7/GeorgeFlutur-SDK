@@ -8,22 +8,22 @@ Details about the endpoints, API keys generation, etc. can be found [here](http:
 
 In order to easily get started with the library follow these steps:
 
-1. Install it using npm
+1. Install it using npm.
 ```
 npm i georgeflutur-sdk
 ```
 
-2. Import it in your file
+2. Import it in your file.
 ```
 import LotRLibrary from "georgeflutur-sdk"
 ```
 
-3. Create an instance of the communicator class
+3. Create an instance of the communicator class.
 ```
 const lortlib = new LotRLibrary("YOUR_API_KEY")
 ```
 
-4. Call the ```getBooks``` method to grab an object containing all the LotR books
+4. Call the ```getMovies``` method to grab an object containing all the LotR books.
 ```
 console.log(await sdk.getMovies())
 ```

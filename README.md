@@ -25,7 +25,7 @@ const lortlib = new LotRLibrary("YOUR_API_KEY")
 
 4. Call the ```getBooks``` method to grab an object containing all the LotR books
 ```
-console.log(await sdk.getBooks())
+console.log(await sdk.getMovies())
 ```
 
 

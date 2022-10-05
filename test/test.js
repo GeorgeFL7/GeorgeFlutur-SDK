@@ -1,5 +1,6 @@
 import assert from "assert";
-import { LotRLibrary, BASE_URL } from "../lib/LotRLibrary.js"
+import LotRLibrary from "../lib/LotRLibrary.js"
+import BASE_URL from "../lib/LotRLibrary.js"
 
 import dotenv from "dotenv"
 dotenv.config()
